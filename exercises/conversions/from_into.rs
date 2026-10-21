@@ -60,7 +60,7 @@ fn main() {
 mod tests {
     use super::*;
     #[test]
-    fn test_default() {
+    fn test_default() {z
         // Test that the default person is 30 year old John
         let dp = Person::default();
         assert_eq!(dp.name, "John");
